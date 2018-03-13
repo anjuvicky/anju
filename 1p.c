@@ -2,10 +2,12 @@
 int main()
 {
     int l, h, i, flag;
-    printf("Enter two numbers(intervals): ");
+    printf("Enter two nums(berintervals): ");
+    
     scanf("%d %d", &l, &h);
+    printf("num");
 
-    printf("Prime numbers between %d and %d are: ", l, h);
+    printf("Prime nums between %d and %d are: ", l, h);
 
     while (l < h)
     {
@@ -19,6 +21,7 @@ int main()
                 break;
             }
         }
+        
 
         if (flag == 0)
             printf("%d ", l);
